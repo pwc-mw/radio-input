@@ -23,7 +23,7 @@ export default {
       label: { en: "selectedValue" },
       type: "Text",
       section: "settings",
-      defaultValue: "",
+      defaultValue: "0", // to make the first radio button active
       bindable: true,
     },
   },
