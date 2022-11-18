@@ -5,6 +5,13 @@ export default {
     },
   },
   properties: {
+    inputId: {
+      label: { en: "input Id" },
+      type: "Text",
+      section: "settings",
+      defaultValue: "",
+      bindable: true,
+    },
     inputValue: {
       label: { en: "value" },
       type: "Text",

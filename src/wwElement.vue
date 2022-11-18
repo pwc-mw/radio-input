@@ -2,6 +2,7 @@
   <input
     type="radio"
     class="my-input-radio"
+    :id="content.inputId"
     :name="wwElementState.name"
     :value="this.value"
     :checked="this.value === this.content.selectedValue"
